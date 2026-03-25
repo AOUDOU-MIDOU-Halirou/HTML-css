@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>excercice html</title> 
+    </head>
+    <body>
+        <h1>Bonjour tout le monde</h1>
+        <p>Nous allons vous presente une collection de d'ordinateur.</p>
+        <ol>
+            <li>Site web</li>
+            <a href="https://www.uqtr.ca" target="_blank"> le site web de UQTR</a>
+            <li>Ordinateur tablette</li>
+            <img src="image/3164.jpg" alt="ordianateur avec clavier et stylo" width="100">
+            <li>ordianateur sans clvier</li>
+            <img src="image/3165.jpg" alt="Ordinateur sans clavier" width="100">
+            <li>Horaire scoore</li>
+            <img src="3154.jpg" alt="soccer" width="100">
+            <li>Les contactes</li>
+            <a href="index.html">Le ficher index html</a>
+            <br>
+            <a href="mailto:test@gmail.com"> Envoyer un message</a>
+            <br>
+            <a href="tel:+145146550000">Appeler</a>
+        </ol>
+        <h1>Formulaire</h1>
+        <form>
+            <label for="nom">Nom: </label>
+            <input type="text" id="nom" name="nom" required placeholder="Entrez votre nom"><br>
+            <label for="prenom">Prénom: </label>
+            <input type="text" id="prenom" name="prenom" required placeholder="Entrez votre prénom"><br>
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" required placeholder="Saisir votre email"><br>
+            <label for="pdm">mot de passe</label>
+            <input type="password" id="pdm" name="pdm" required placeholder="Entrez votre mot de passe"><br>
+            <label>sexe</label>
+            <label><input type="radio" name="sexe" value="homme">Homme</label>
+            <label><input type="radio" name="sexe" value="femme">Femme</label><br>
+            <label>Les langages de programmation préférés</label><br>
+            <label><input type="checkbox" name="langage[]" value="html">HTML</label><br>
+            <label><input type="checkbox" name="langage[]" value="css">CSS</label><br>
+            <label><input type="checkbox" name="langage[]" value="python">Python</label><br>
+            <label><input type="checkbox" name="langage[]" value="java">Java</label><br>
+            <label for="message">Message</label><br>
+            <textarea id="message" name="message" rows="5" cols="30"></textarea><br>
+             <label for="pays">Pays</label>
+            <select id="pays" name="pays">
+                <option value="niger">Niger</option>
+                <option value="benin">Bénin</option>
+                <option value="tunisie">Tunisie</option>
+                <option value="france">France</option>
+                <option value="canada">Canada</option>
+            </select><br>
+            <button type="submit">Envoyer</button><br>
+            <button type="reset">Effacer</buton>
+
+        </form>
+    </body>
+</html>

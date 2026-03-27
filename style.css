@@ -1,0 +1,35 @@
+body{
+    background-color: antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: auto;
+}
+header{
+    background-color: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10%;
+    text-align: center;
+}
+section{
+    border: 15px;
+    margin: 10%;
+    padding-left: 10%;
+}
+image{
+    width: 15%;
+}
+input{
+    border-radius: 10%;
+    width: 20%;
+}
+textarea{
+    border-radius: 10%;
+    width: 30%;
+}
+button{
+    border-radius: 15%;
+    width: 20%;
+}
+footer{
+    background-color: beige;
+    color:rgb(167, 208, 167);
+}
